@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BBEB6F122CE476E00066D52 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBEB6F022CE476E00066D52 /* CollectionViewCell.m */; };
 		8BC2DB1D22CE393700520171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2DB1C22CE393700520171 /* AppDelegate.m */; };
 		8BC2DB2022CE393700520171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2DB1F22CE393700520171 /* ViewController.m */; };
 		8BC2DB2322CE393700520171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC2DB2122CE393700520171 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BBEB6EF22CE476E00066D52 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		8BBEB6F022CE476E00066D52 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		8BC2DB1822CE393700520171 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC2DB1B22CE393700520171 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BC2DB1C22CE393700520171 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				8BC2DB1F22CE393700520171 /* ViewController.m */,
 				8BC2DB4D22CE3C0D00520171 /* TableViewCell.h */,
 				8BC2DB4E22CE3C0E00520171 /* TableViewCell.m */,
+				8BBEB6EF22CE476E00066D52 /* CollectionViewCell.h */,
+				8BBEB6F022CE476E00066D52 /* CollectionViewCell.m */,
 				8BC2DB2122CE393700520171 /* Main.storyboard */,
 				8BC2DB2422CE393900520171 /* Assets.xcassets */,
 				8BC2DB2622CE393900520171 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BC2DB2022CE393700520171 /* ViewController.m in Sources */,
+				8BBEB6F122CE476E00066D52 /* CollectionViewCell.m in Sources */,
 				8BC2DB4F22CE3C0E00520171 /* TableViewCell.m in Sources */,
 				8BC2DB2B22CE393900520171 /* main.m in Sources */,
 				8BC2DB1D22CE393700520171 /* AppDelegate.m in Sources */,
