@@ -15,6 +15,7 @@
 		8BC2DB2B22CE393900520171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2DB2A22CE393900520171 /* main.m */; };
 		8BC2DB3522CE393900520171 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2DB3422CE393900520171 /* GitTestTests.m */; };
 		8BC2DB4022CE393900520171 /* GitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2DB3F22CE393900520171 /* GitTestUITests.m */; };
+		8BC2DB4F22CE3C0E00520171 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2DB4E22CE3C0E00520171 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8BC2DB3B22CE393900520171 /* GitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC2DB3F22CE393900520171 /* GitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestUITests.m; sourceTree = "<group>"; };
 		8BC2DB4122CE393900520171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC2DB4D22CE3C0D00520171 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		8BC2DB4E22CE3C0E00520171 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				8BC2DB1C22CE393700520171 /* AppDelegate.m */,
 				8BC2DB1E22CE393700520171 /* ViewController.h */,
 				8BC2DB1F22CE393700520171 /* ViewController.m */,
+				8BC2DB4D22CE3C0D00520171 /* TableViewCell.h */,
+				8BC2DB4E22CE3C0E00520171 /* TableViewCell.m */,
 				8BC2DB2122CE393700520171 /* Main.storyboard */,
 				8BC2DB2422CE393900520171 /* Assets.xcassets */,
 				8BC2DB2622CE393900520171 /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BC2DB2022CE393700520171 /* ViewController.m in Sources */,
+				8BC2DB4F22CE3C0E00520171 /* TableViewCell.m in Sources */,
 				8BC2DB2B22CE393900520171 /* main.m in Sources */,
 				8BC2DB1D22CE393700520171 /* AppDelegate.m in Sources */,
 			);
