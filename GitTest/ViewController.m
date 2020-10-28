@@ -19,6 +19,7 @@
     //yyyyyyy  hhjjjhhj
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"");
+    self.view.backgroundColor = [UIColor orangeColor];
 }
 
 
